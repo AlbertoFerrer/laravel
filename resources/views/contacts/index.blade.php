@@ -8,7 +8,7 @@
             {{ session()->get('success') }}
         </div>
         @endif
-        <h1 class="display-3">Contacts</h1>
+        <h1 class="display-3">Contactos</h1>
         <div>
             <a style="margin: 19px;" href="{{ route('contacts.create')}}" class="btn btn-primary">New contact</a>
         </div>
