@@ -10,7 +10,7 @@
         @endif
         <h1 class="display-3">Contactos</h1>
         <div>
-            <a style="margin: 19px;" href="{{ route('contacts.create')}}" class="btn btn-primary">New contact</a>
+            <a style="margin: 19px;" href="{{ route('contacts.create')}}" class="btn btn-primary">Nuevo contacto</a>
         </div>
         <table class="table table-striped">
             <thead>
