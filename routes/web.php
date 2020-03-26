@@ -23,3 +23,5 @@ Route::resource('contacts', 'ContactController');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::view('customers', 'customers');
